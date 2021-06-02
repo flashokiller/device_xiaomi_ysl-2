@@ -23,7 +23,7 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 
 # Inherit some common DerpFest Os stuff.
 
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit MIUI Camera
@@ -31,7 +31,7 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := derp_ysl
+PRODUCT_NAME := aosp_ysl
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2
 PRODUCT_MANUFACTURER := Xiaomi
